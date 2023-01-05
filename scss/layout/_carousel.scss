@@ -1,0 +1,30 @@
+#carousel{
+    background-image: url("./../../images/product-header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: $pd-2 0;
+
+    h1{
+        @include style-text($fs-4, $fw-3, $color-blue-2);
+        // font-size: $fs-4;
+        //     font-weight: $fw-3;
+        //     color: $color-blue-2;
+    }
+    h3{
+            // font-size: $fs-5;
+            //     font-weight: $fw-2;
+            //     color: $color-blue-1;
+                @include style-text($fs-5, $fw-2, $color-blue-1);
+                letter-spacing: $ls-1;
+                margin-bottom: $mg-1;
+    }
+    p{
+        @include style-text($fs-2, $fw-1, $color-dark-1);
+            // font-size: 1.1rem;
+            //     font-weight: 400;
+            //     color: #656774;
+                margin-bottom: $mg-2;
+    }
+
+   
+}
